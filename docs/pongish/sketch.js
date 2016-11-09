@@ -53,24 +53,16 @@ function ball() {
 	y+=dy;
 
 	if(y > py - height/10 && y < py + height/10) {
-<<<<<<< HEAD
 		if(x - r < px + width/200 && x > 0) {
 			var slope = dy / dx;
-=======
-		if(x - r < px + width/200)
->>>>>>> parent of 2004207... prevent bounces from behind paddles
 			dx *= -1.1;
 			dy = dx * slope;
 		}
 	}
 
 	if(y > cy - height/10 && y < cy + height/10) {
-<<<<<<< HEAD
 		if(x + r > cx + width/200 && x < width)
 			var slope = dy / dx;
-=======
-		if(x + r > cx + width/200)
->>>>>>> parent of 2004207... prevent bounces from behind paddles
 			dx *= -1.1;
 			dy = dx * slope;
 	}
