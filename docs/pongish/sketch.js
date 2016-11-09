@@ -75,5 +75,8 @@ function paddle2() {
 }
 
 function keyPressed() {
-	console.log(key);
+	if(keyCode == LEFT)
+		console.log("Left");
+	else if(keyCode == RIGHT)
+		console.log("Right");
 }
