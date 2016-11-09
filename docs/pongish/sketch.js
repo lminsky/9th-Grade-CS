@@ -29,6 +29,7 @@ function draw() {
 	ball();
 	paddle1();
 	paddle2();
+	checkKeys();
 }
 
 function windowResized() {
@@ -74,9 +75,11 @@ function paddle2() {
 	rect(cx, cy, width/100, height/5);
 }
 
-function keyPressed() {
-	if(keyCode == LEFT)
-		console.log("Left");
-	else if(keyCode == RIGHT)
-		console.log("Right");
+function checkKeys() {
+	if(keyIsPressed) {
+		if(keyCode == LEFT)
+			console.log("Left");
+		else if(keyCode == RIGHT)
+			console.log("Right");
+	}
 }
