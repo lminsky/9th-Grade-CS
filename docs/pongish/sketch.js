@@ -53,12 +53,12 @@ function ball() {
 	y+=dy;
 
 	if(y > py - height/10 && y < py + height/10) {
-		if(x - r < px + width/200)
+		if(x - r < px + width/200 && x > 0)
 			dx *= -1.1;
 	}
 
 	if(y > cy - height/10 && y < cy + height/10) {
-		if(x + r > cx + width/200)
+		if(x + r > cx + width/200 && x < width)
 			dx *= -1.1;
 	}
 
