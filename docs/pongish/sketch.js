@@ -48,19 +48,18 @@ function field() {
 
 function ball() {
 	ellipse(x, y, r*2, r*2);
-	// dx = rotationX;
-	// dy = rotationY;
+
 	x+=dx;
 	y+=dy;
 
 	if(y > py - height/10 && y < py + height/10) {
 		if(x - r < px + width/200)
-			dx *= -1;
+			dx *= -1.1;
 	}
 
 	if(y > cy - height/10 && y < cy + height/10) {
 		if(x + r > cx + width/200)
-			dx *= -1;
+			dx *= -1.1;
 	}
 
 	if(y < r || y > height-r) dy = -dy;
@@ -90,6 +89,7 @@ function checkKeys() {
 
 function checkScore() {
 	if(x < -4*r || x > width + 4*r) {
+		console.log("GOAL!");
 		x = width/2;
 		y = height/2;
 		dx = random(-10, 10);
