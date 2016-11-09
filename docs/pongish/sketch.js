@@ -73,3 +73,7 @@ function paddle2() {
 	else if(y < height/10) cy = height/10;
 	rect(cx, cy, width/100, height/5);
 }
+
+function keyPressed() {
+	console.log(key);
+}
