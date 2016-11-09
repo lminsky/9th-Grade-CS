@@ -62,8 +62,6 @@ function ball() {
 }
 
 function paddle1() {
-	if(rotationY - 5 > py) py += speed;
-	else if (rotatationY + 5 < py) py -= speed;
 	rect(px, py, width/100, height/5);
 }
 
