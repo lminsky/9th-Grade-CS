@@ -15,7 +15,7 @@ function setup() {
 	x = width/2;
 	y = height/2;
 	dx = random(-10, 10);
-	dy = random(-10, 10);
+	dy = random(-5, 5);
 	r = height/25;
 	rectMode(CENTER);
 	px = 15;
@@ -29,7 +29,7 @@ function draw() {
 	ball();
 	paddle1();
 	paddle2();
-	console.log("TEST 1");
+	checkScore();
 	checkKeys();
 }
 
@@ -52,14 +52,17 @@ function ball() {
 	// dy = rotationY;
 	x+=dx;
 	y+=dy;
-	if(x < 0) x = width;
-	if(x > width) x = 0;
-	if(x > px-2+r && x < px+2+r)
-		if(y+r < py + height/10 || y+r > py - height/10)
-			dx = -dx;
-	if(x > cx-2-r && x < cx+2-r)
-		if(y+r < cy + height/10 || y+r > cy - height/10)
-			dx = -dx;
+
+	if(y > py - height/10 && y < py + height/10) {
+		if(x - r < px + width/200)
+			dx *= -1;
+	}
+
+	if(y > cy - height/10 && y < cy + height/10) {
+		if(x + r > cx + width/200)
+			dx *= -1;
+	}
+
 	if(y < r || y > height-r) dy = -dy;
 }
 
@@ -68,20 +71,28 @@ function paddle1() {
 }
 
 function paddle2() {
-	if(y > cy) cy += speed;
-	else if (y < cy) cy -= speed;
+	if(y > cy+8) cy += speed;
+	else if (y < cy-8) cy -= speed;
 
 	if(cy > height-height/10) cy = height-height/10;
-	else if(y < height/10) cy = height/10;
+	else if(cy < height/10) cy = height/10;
 	rect(cx, cy, width/100, height/5);
 }
 
 function checkKeys() {
-	console.log("TEST 2");
 	if(keyIsPressed) {
-		if(keyCode == LEFT)
-			console.log("Left");
-		else if(keyCode == RIGHT)
-			console.log("Right");
+		if(keyCode == UP_ARROW)
+			py -= speed;
+		else if(keyCode == DOWN_ARROW)
+			py += speed;
+	}
+}
+
+function checkScore() {
+	if(x < -4*r || x > width + 4*r) {
+		x = width/2;
+		y = height/2;
+		dx = random(-10, 10);
+		dy = random(-5, 5);
 	}
 }
