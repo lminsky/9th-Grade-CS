@@ -29,6 +29,7 @@ function draw() {
 	ball();
 	paddle1();
 	paddle2();
+	console.log("TEST 1");
 	checkKeys();
 }
 
@@ -76,6 +77,7 @@ function paddle2() {
 }
 
 function checkKeys() {
+	console.log("TEST 2");
 	if(keyIsPressed) {
 		if(keyCode == LEFT)
 			console.log("Left");
