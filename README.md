@@ -1,7 +1,7 @@
 # 9th Grade CS (2016)
 
 * Cycle 1 - Programming with p5.js
-  * [Day 1](/tree/master/Classwork/2016-11-10) - Introductions, installations, Hello World
+  * [Day 1](https://github.com/lminsky/9th-Grade-CS/tree/master/Classwork/2016-11-10) - Introductions, installations, Hello World
     * [Sublime Text](https://www.sublimetext.com/)
     * [p5.js](https://p5js.org/)
   * Day 2 - File Structure, Shapes, Colors
