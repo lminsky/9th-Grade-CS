@@ -4,7 +4,7 @@
   * [Day 1](https://github.com/lminsky/9th-Grade-CS/tree/master/Classwork/2016-11-10) - Introductions, installations, Hello World
     * [Sublime Text](https://www.sublimetext.com/)
     * [p5.js](https://p5js.org/)
-  * Day 2 - File Structure, Shapes, Colors
+  * Day 2 - File Structure, Shapes, Colors, Console
 * Cycle 2 - Programming with p5.js
 * Cycle 3 - Web Development (HTML, CSS, JS)
 * Cycle 4 - Game Development with Unity
