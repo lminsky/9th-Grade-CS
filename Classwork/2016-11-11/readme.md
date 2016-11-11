@@ -12,3 +12,5 @@ We covered:
   * Stroke
 * StrokeWeight
 * Comments
+
+!(https://github.com/lminsky/9th-Grade-CS/blob/master/Classwork/2016-11-11/output.png)
