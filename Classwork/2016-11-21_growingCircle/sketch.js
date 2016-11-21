@@ -1,7 +1,7 @@
 var d = 1000;                   //Set the variable d (for diameter) to start at 1000
 
 function setup() {
-	createCanvas(800, 800);       //Create the canvas
+	createCanvas(600, 600);       //Create the canvas
 	fill(253, 219, 255);          //Set the fill to a nice light pink
 }
 
