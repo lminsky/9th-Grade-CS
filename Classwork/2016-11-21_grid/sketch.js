@@ -19,4 +19,6 @@ function setup() {
 
 	for(var y = 100; y <= 800; y += 100)	//Loop through each y text location
 		text(y, 5, y-5);										//Write the y-coordinate
+
+	text(0, 5, 15);												//Write the 0
 }
