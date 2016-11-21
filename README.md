@@ -8,7 +8,15 @@
     * [Examples of shapes and colors](https://github.com/lminsky/9th-Grade-CS/tree/master/Classwork/2016-11-11)
     * [Example of my name](https://github.com/lminsky/9th-Grade-CS/tree/master/Classwork/2016-11-11_name)
     * [Example of circle and rectangle for pong](https://github.com/lminsky/9th-Grade-CS/tree/master/Classwork/2016-11-11_pong)
-  * [Day 4]() - Variables, variables, variables
+  * [Day 4](https://github.com/lminsky/9th-Grade-CS/tree/master/Classwork/2016-11-16_lines) - Variables, variables, variables
+    * Using variables to replace repeated numbers
+  * [Day 5](https://github.com/lminsky/9th-Grade-CS/tree/master/Classwork/2016-11-17) - Changing the value of variables
+    * Modifying variables so you do less work
+  * Day 7 - function draw()
+    * Using the draw loop to create animations
+    * Starter activity (four rectangles)
+    * Moving square
+    * Growing/Shrinking circle
 * Cycle 2 - Programming with p5.js
 * Cycle 3 - Web Development (HTML, CSS, JS)
 * Cycle 4 - Game Development with Unity
