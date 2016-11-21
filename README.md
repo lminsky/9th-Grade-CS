@@ -14,9 +14,9 @@
     * Modifying variables so you do less work
   * Day 7 - function draw()
     * Using the draw loop to create animations
-    * Starter activity (four rectangles)
-    * Moving square
-    * Growing/Shrinking circle
+    * [Starter activity (four rectangles)](https://github.com/lminsky/9th-Grade-CS/tree/master/Classwork/2016-11-21_boxes)
+    * [Moving square](https://github.com/lminsky/9th-Grade-CS/tree/master/Classwork/2016-11-21_movingBox)
+    * [Growing/Shrinking circle](https://github.com/lminsky/9th-Grade-CS/tree/master/Classwork/2016-11-21_growingCircle)
 * Cycle 2 - Programming with p5.js
 * Cycle 3 - Web Development (HTML, CSS, JS)
 * Cycle 4 - Game Development with Unity
