@@ -1,12 +1,12 @@
 var x = 300;                //Set the x variable to start at 300
 var y = 300;                //Set the y variable to start at 300
 var xSpeed = 5;             //Set the x speed to 5
-var ySpeed = 8;                 //Set the y speed to 8  
+var ySpeed = 8;             //Set the y speed to 8  
 var d = 100;                //Set the diameter to 100
 
 function setup() {
 	createCanvas(600, 600);   //Create the canvas
-	fill(200, 0, 0);          //Set the fill to red
+  fill(212, 66, 244);       //Set the fill to pink
 }
 
 function draw() {           //The draw loop will run as long as the page is open in your browser
