@@ -1,0 +1,36 @@
+<html>
+
+<p id="text1">This is text</p>
+
+<button onclick="button()">Click Me</button>
+<button onclick="changeText()">Click Me Too</button>
+<br><br>
+<input id="num1"> + <input id="num2">
+<button onclick="sum()" id="sum">Add</button>
+
+
+
+<script>
+  function sum() {
+    var n1 = parseInt(document.getElementById("num1").value);
+    var n2 = parseInt(document.getElementById("num2").value);
+    document.getElementById("sum").innerHTML = n1+n2;
+    //alert(n1 + n2);
+  }
+
+
+  var x = 0;
+
+  function button() {
+    console.log("Clicked " + x);
+    alert("Clicked " + x);
+    x = x + 1;
+  }
+
+  function changeText() {
+    document.getElementById("text1").innerHTML = "I like sleep!";
+    document.getElementById("text1").style = "color: #FF0000; font-size: 24pt";
+  }
+</script>
+
+</html>

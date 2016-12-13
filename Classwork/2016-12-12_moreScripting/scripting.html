@@ -1,0 +1,33 @@
+<html>
+
+<p id="text1">This is text</p>
+
+<button onclick="button()">Click Me</button>
+<button onclick="changeText()">Click Me Too</button>
+<br><br>
+<input id="num1"> + <input id="num2">
+<button onclick="add()">Sum</button>
+
+
+<script>
+  var x = 0;
+
+  function button() {
+    console.log("Clicked " + x);
+    alert("Clicked " + x);
+    x = x + 1;
+  }
+
+  function changeText() {
+    document.getElementById("text1").innerHTML = "I like sleep!";
+  }
+
+  function add() {
+    var x = parseInt(document.getElementById("num1").value);
+    var y = parseInt(document.getElementById("num2").value);
+    console.log(x);
+    alert(x + y);
+  }
+</script>
+
+</html>
