@@ -7,10 +7,9 @@
     * What is a website
   * 2017-02-07
     * HTML
-      * <html>
-      * <h1>
-      * <p>
-      * <b>
-      * <img>
+      * h1
+      * p
+      * b
+      * img
 * Cycle 2 - Programming with p5.js
 * Cycle 3 - Game Development with Unity
