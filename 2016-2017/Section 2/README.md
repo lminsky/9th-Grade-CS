@@ -14,6 +14,14 @@
   * b
   * img
 
+### [2017-02-08](Classwork/2017-02-08)
+* HTML
+  * video
+  * lists
+  * tables
+  * explore w3schools.com
+  * color
+
 ## Cycle 2 - Programming with p5.js
 
 ## Cycle 3 - Game Development with Unity
