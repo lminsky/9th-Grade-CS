@@ -16,11 +16,18 @@
 
 ### [2017-02-08](Classwork/2017-02-08)
 * HTML
+  * explore w3schools.com
   * video
   * lists
-  * tables
+  * color
+
+### [2017-02-10](Classwork/2017-02-10)
+* CSS
   * explore w3schools.com
   * color
+  * font size
+  * id
+  * class
 
 ## Cycle 2 - Programming with p5.js
 
