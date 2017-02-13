@@ -29,6 +29,13 @@
   * id
   * class
 
+### [2017-02-13](Classwork/2017-02-13)
+* CSS
+  * Review style tag
+  * classes
+  * ids
+* Work on web pages
+
 ## Cycle 2 - Programming with p5.js
 
 ## Cycle 3 - Game Development with Unity
