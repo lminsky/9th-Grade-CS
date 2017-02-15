@@ -29,7 +29,7 @@
   * id
   * class
 
-### [2017-02-13](Classwork/2017-02-13)
+### 2017-02-13
 * CSS
   * Review style tag
   * classes
@@ -38,6 +38,7 @@
 
 ### [2017-02-15](Classwork/2017-02-15)
 * [Your web pages](https://lminsky.github.io/9th-Grade-CS/2016-2017_q3/student_html/)
+* Introduce javascript
 
 ## Cycle 2 - Programming with p5.js
 
