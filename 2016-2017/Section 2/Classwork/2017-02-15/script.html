@@ -1,0 +1,32 @@
+<html>
+
+<style>
+  #text {
+    color: #ff0000;
+  }
+</style>
+
+<head>
+  <title>Page with Javascript</title>
+</head>
+
+<body>
+  <h1>This page has javascript on it</h1>
+
+  <p id="text">Look at the color of this text!</p>
+
+  <button onclick="changeColor()">Click Me</button>
+  <button onclick="changeColorBack()">Click Me Too</button>
+
+</body>
+
+<script>
+  function changeColor() {
+    document.getElementById("text").style.color = "#00ff00";
+  }
+  function changeColorBack() {
+    document.getElementById("text").style.color = "#ff0000";
+  }
+</script>
+
+</html>
