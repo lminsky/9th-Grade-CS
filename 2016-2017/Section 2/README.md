@@ -42,4 +42,12 @@
 
 ## Cycle 2 - Programming with p5.js
 
+### [2017-02-16](Classwork/2017-02-16)
+* Introduce p5.js
+  * The grid
+  * The file structure
+  * createCanvas(width, height)
+  * rect(x, y, width, height)
+  * ellipse(x, y, width, height)
+
 ## Cycle 3 - Game Development with Unity
