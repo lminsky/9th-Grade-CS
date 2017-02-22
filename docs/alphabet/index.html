@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Edward Gorey's Alphabet</title>
+</head>
+
+<body style="text-align:center;margin-top:100px">
+  <img id="image" src="0.jpg">
+</body>
+
+<script>
+  var count = 0;
+  var image = document.getElementById("image");
+
+  document.addEventListener("click", function(){
+    count = (count + 1) % 27;
+    image.src = count + ".jpg";
+  });
+</script>
+
+</html>

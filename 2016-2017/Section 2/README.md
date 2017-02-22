@@ -50,4 +50,10 @@
   * rect(x, y, width, height)
   * ellipse(x, y, width, height)
 
+### [2017-02-17](Classwork/2017-02-17)
+* Review shapes
+* Introduce colors
+  * Fill vs Stroke
+* Introduce variables
+
 ## Cycle 3 - Game Development with Unity
