@@ -55,5 +55,14 @@
 * Introduce colors
   * Fill vs Stroke
 * Introduce variables
+* Introduce function Draw()
+* Introduce modulo (%)
+
+
+### [2017-02-23](Classwork/2017-02-23)
+* Review variables
+* Review function Draw()
+* Introduce conditionals
+* Start bouncing ball
 
 ## Cycle 3 - Game Development with Unity
