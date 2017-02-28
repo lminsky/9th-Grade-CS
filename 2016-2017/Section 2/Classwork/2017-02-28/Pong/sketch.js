@@ -13,12 +13,19 @@ function setup() {
 function draw() {
   background(255, 0, 255);
   ellipse(x, y, diameter, diameter);
+  rect(mouseX, height-100, 300, 50)
   x = x + xSpeed;
   y = y + ySpeed;
 
   // This code makes the ball bounce off the bottom
-  if(y > height - diameter/2) {
-    ySpeed = ySpeed * -1;
+  if(y > height - 100 - diameter/2) {
+    if(x > mouseX) {
+      if(x < mouseX + 300) {
+        if(y < height - 40 - diameter/2) {
+          ySpeed = ySpeed * -1;
+        }
+      }
+    }
   }
 
   if(y <= diameter/2) {
