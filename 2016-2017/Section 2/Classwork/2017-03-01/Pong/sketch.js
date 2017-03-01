@@ -7,6 +7,7 @@ var paddle_width = 300;       //The paddle's width
 var paddle_height = 50;       //The paddle's height
 var paddle_x;                 //The paddle's x position
 var paddle_y;                 //The paddle's y position
+var score = 0                 //The player's score
 
 function setup() {
   createCanvas(windowWidth, windowHeight);  //Create the canvas (same size as the window)
@@ -17,6 +18,10 @@ function setup() {
 
 function draw() {
   background(255, 0, 255);                  //Set the background color (magenta)
+  
+  textSize(32);
+  text(score, 20, 50);
+
   paddle_x = mouseX - paddle_width/2;       //Place the x position of the paddle so that the mouse is in the center
   ellipse(x, y, diameter, diameter);        //Draw the ball
   rect(paddle_x, paddle_y, paddle_width, paddle_height)   //Draw the paddle
@@ -29,6 +34,8 @@ function draw() {
       if(x < paddle_x + paddle_width) {     //Then check if the ball is to the left of the right side of the paddle
         if(y < paddle_y + ySpeed + 1 - diameter/2) {    //The make sure the ball isn't below the paddle
           ySpeed = ySpeed * -1;             //If all of the above things are true, negate the ball's y speed
+          score = score + 1;
+          console.log(score);
         }
       }
     }
@@ -50,5 +57,10 @@ function draw() {
   //If it is, negate the x speed
   if(x <= diameter/2) {
     xSpeed = xSpeed * -1;
+  }
+
+  if(y > height + 200) {
+    score = 0;
+    y = height/4;
   }
 }
