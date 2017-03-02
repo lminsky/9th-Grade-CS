@@ -66,7 +66,18 @@
 * Start bouncing ball
 
 
-### [2017-02-28](Classwork/2017-02-28)
+### [2017-02-24](Classwork/2017-02-24)
+* Finish bouncing ball
+  * Bounce off of all four walls
+* Introduce mouseX, mouseY
 
+### [2017-02-28](Classwork/2017-02-28)
+* Start Pong
+  * Bounce the ball off the paddle
+
+### [2017-03-01](Classwork/2017-03-01)
+* Add a score to pong
+  * Display the score in the console
+  * Display the score as text in the window
 
 ## Cycle 3 - Game Development with Unity
