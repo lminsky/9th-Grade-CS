@@ -58,13 +58,11 @@
 * Introduce function Draw()
 * Introduce modulo (%)
 
-
 ### [2017-02-23](Classwork/2017-02-23)
 * Review variables
 * Review function Draw()
 * Introduce conditionals
 * Start bouncing ball
-
 
 ### [2017-02-24](Classwork/2017-02-24)
 * Finish bouncing ball
@@ -81,3 +79,8 @@
   * Display the score as text in the window
 
 ## Cycle 3 - Game Development with Unity
+
+### 2017-03-06
+* Download and install Unity
+* Create Unity accounts
+* Review good email habbits
