@@ -84,3 +84,12 @@
 * Download and install Unity
 * Create Unity accounts
 * Review good email habbits
+
+### 2017-03-07
+* Create a new 3D game in Unity
+* Create terrain
+  * Modify the terrain elevation
+  * Apply textures to the terrain
+
+### 2017-03-10
+* Work on your video game landscape
