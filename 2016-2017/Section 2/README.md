@@ -93,3 +93,10 @@
 
 ### 2017-03-10
 * Work on your video game landscape
+
+### 2017-03-13
+* Continue work of unity environment
+* Add and move terrain
+* Add trees
+* Add grass
+* Move the camera
