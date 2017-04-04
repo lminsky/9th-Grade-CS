@@ -100,3 +100,8 @@
 * Add trees
 * Add grass
 * Move the camera
+
+### 2017-04-04
+* Introduce 3D printing / modeling
+* Visit the 3D printers
+* Download sketchup
