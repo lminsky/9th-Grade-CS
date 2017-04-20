@@ -30,3 +30,11 @@
       * RGB (0-255)
       * Hex (#00ff00)
       * Pixels
+
+### [2017-04-19](Classwork/2017-04-19)
+* Styling Websites (css)
+  * `color`
+  * `font-family`
+  * `text-shadow`
+  * `text-align`
+  * Classes
