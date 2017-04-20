@@ -38,3 +38,12 @@
   * `text-shadow`
   * `text-align`
   * Classes
+
+### [2017-04-20](Classwork/2017-04-20)
+* Styling Websites (css)
+  * Class
+  * ID
+* Javascript
+  * variables
+  * functions
+  * buttons
