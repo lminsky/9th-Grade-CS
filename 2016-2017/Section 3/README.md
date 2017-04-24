@@ -47,3 +47,7 @@
   * variables
   * functions
   * buttons
+
+### [2017-04-24](Classwork/2017-04-24)
+* Read and evaluate existing code
+* Create your own madlibs
