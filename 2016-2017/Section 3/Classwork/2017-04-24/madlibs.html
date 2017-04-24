@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    #results {
+      display: none;
+    }
+    #adj1-result {
+      text-transform: capitalize;
+    }
+  </style>
+
+  <head>
+    <title>Mad Libs</title>
+  </head>
+
+  <body>
+    <span id="inputs">
+      <p>Noun: <input type="text" name="noun1-input" id="noun1-input"></p>
+      <p>Adjective: <input type="text" name="adj1-input" id="adj1-input"></p>
+      <button id="fillButton" onclick="fill()">Fill</button>
+    </span>
+
+    <span id="results">
+      <p>On his 11th birthday, Harry Potter found out that he was a <span id="noun1-result"></span>. <span id="adj1-result"></span> things had been happening to him his entire life and now he knew why.</p>
+    </span>
+  </body>
+
+  <script type="text/javascript">
+  function fill() {
+    var noun1 = document.getElementById("noun1-input").value;
+    document.getElementById("noun1-result").innerHTML = noun1;
+
+    var adj1 = document.getElementById("adj1-input").value;
+    document.getElementById("adj1-result").innerHTML = adj1;
+
+    document.getElementById("results").style.display = "block";
+    document.getElementById("inputs").style.display = "none";
+  }
+  </script>
+</html>
