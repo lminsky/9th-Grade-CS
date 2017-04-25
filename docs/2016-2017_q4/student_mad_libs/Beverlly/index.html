@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<style type="text/css">
+		#results {
+			display: none;
+		}
+		#adjl-result {
+			text-transform: capitalize;
+		}
+		</style>
+
+	<head>
+		<title>Mid Libs</title>
+	</head>
+
+	<body>
+		<span id="inputs">
+		<p>Noun: <input type="text" name= "noun1-input" id= "noun1-input"></p>
+		<p>Noun: <input type="test" name = "noun2-input" id="noun2-input"></p>
+		<p>Adjective: <input type="text" name="adj1-input" id="adj1-input"></p>
+		<p>Verb: <input type="text" name="verb1-input" id="verb1-input"></p>
+		<button id="fillButton" onclick="fill()">Fill</button>
+		</span>
+
+		<span id="results">
+			<p>One day <span id="noun1-result"></span> was running down the <span id="noun2-result"></span>. <span id="noun1-result"></span> then saw a <span id="adj1-result"></span> <span id="noun2-result"></span> and <span id="verb1-result"></span>. The <span id="adj1-result"></span> <span id="noun2-result"></span> hopped on a helicopter and went after <span id="noun1-result"></span>.</p>
+		</span>
+	</body>
+
+	<script type="text/javascript">
+	function fill() {
+		var noun1 = document.getElementById ("noun1-input") .vaule;
+		document.getElementById("noun1-result") .innerHTML = noun1;
+
+		var noun2 = document.getElementById ("noun2-input") .value;
+		document.getElementById("noun2-result") .innerHTML = noun2;
+
+		var adj1 = document.getElementById("adj1-input") .value;
+		document.getElementById("adj1-result") .innerHTML = adj1;
+
+		var verb1 = document.getElementById ("verb1-input") .value;
+		document.getElementById("verb1-input") .innerHTML = verb1;
+
+		document.getElementById("results") .style.display = "block";
+		document.getElementById("inputs") . style.display = "none";
+	}
+
+	</script>
+</html>

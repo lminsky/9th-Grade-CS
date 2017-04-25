@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    #results {
+      display: none;
+    }
+    #adj1-result {
+      text-transform: capitalize;
+
+    }
+    p {
+    font-family: "Lucida Console", Monospace;
+}
+  </style>
+
+  <head>
+    <title>Mad Libs</title>
+  </head>
+
+  <body style="background-color:powderblue;">
+    <span id="inputs">
+      <p style="color: #ff96c3">Adjective: <input type="text" name="adj1-input" id="adj1-input"></p>
+      <p style="color: #ff96c3">Verb ending in s: <input type="text" name="verb1-input" id="verb1-input"></p>
+      <p style="color: #ff96c3">Adjective: <input type="text" name="adj2-input" id="adj2-input"></p>
+      <p style="color: #ff96c3">Adjective: <input type="text" name="adj3-input" id="adj3-input"></p>
+      <p style="color: #ff96c3">Noun: <input type="text" name="noun-input" id="noun-input"></p>
+       <p style="color: #ff96c3">Female Name: <input type="text" name="fn-input" id="fn-input"></p>
+
+      <button id="fillButton" onclick="fill()">Fill</button>
+    </span>
+
+    <span id="results">
+      <p style="color: #ff96c3"><span id="fn-result"></span> is really <span id="adj1-result"></span> even though sometimes she <span id="verb1-result"></span> too much. In computer class she's <span id="adj2-result"></span> all the time. <span id="fn-result2"></span> is not always <span id="adj3-result"></span>, but usually she eats too many of my <span id="noun-result"></span> mints.</p>
+    </span>
+  </body>
+
+  <script type="text/javascript">
+  function fill() {
+    var adj1 = document.getElementById("adj1-input").value;
+    document.getElementById("adj1-result").innerHTML = adj1;
+    var verb1 = document.getElementById("verb1-input").value;
+    document.getElementById("verb1-result").innerHTML = verb1;
+     var adj2 = document.getElementById("adj2-input").value;
+    document.getElementById("adj2-result").innerHTML = adj2;
+     var adj3 = document.getElementById("adj3-input").value;
+    document.getElementById("adj3-result").innerHTML = adj3;
+     var noun = document.getElementById("noun-input").value;
+    document.getElementById("noun-result").innerHTML = noun;
+    var fn = document.getElementById("fn-input").value;
+    document.getElementById("fn-result").innerHTML = fn;
+    var fn = document.getElementById("fn-input").value;
+    document.getElementById("fn-result2").innerHTML = fn;
+    document.getElementById("results").style.display = "block";
+    document.getElementById("inputs").style.display = "none";
+  }
+  </script>
+</html>

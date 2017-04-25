@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    #results {
+      display: none;
+   
+  </style>
+
+  <head>
+    <title>Mad Libs</title>
+  </head>
+
+  <body>
+    <span id="inputs">
+      <p>Noun: <input type="text" name="noun1-input" id="noun1-input"></p>
+      <p>Adjective: <input type="text" name="adj1-input" id="adj1-input"></p>
+      <p>Noun: <input type="text" name="noun2-input" id="noun2-input"></p>
+      <button id="fillButton" onclick="fill()">Fill</button>
+    </span>
+
+    <span id="results">
+      <p>One day at school my teacher gave me a super hard suprise <span id="noun1-result"></span>. Because of this my instantly became <span id="adj1-result"></span>. After class i ran to the cafeteria to eat some <span id="noun2-result"></span> to make my day better.</p>
+    </span>
+  </body>
+
+  <script type="text/javascript">
+  function fill() {
+    var noun1 = document.getElementById("noun1-input").value;
+    document.getElementById("noun1-result").innerHTML = noun1;
+    var adj1 = document.getElementById("adj1-input").value;
+    document.getElementById("adj1-result").innerHTML = adj1;
+    var noun2 =document.getElementById("noun2-input").value;
+    document.getElementById("noun2-result").innerHTML = noun2
+    document.getElementById("results").style.display = "block";
+    document.getElementById("inputs").style.display = "none";
+  }
+  </script>
+</html>

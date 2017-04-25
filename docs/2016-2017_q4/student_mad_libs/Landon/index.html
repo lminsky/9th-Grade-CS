@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    #results {
+      display: none;
+    }
+    #adj1-result {
+      text-transform: capitalize;
+    }
+  </style>
+
+  <head>
+    <title>Mad Libs</title>
+  </head>
+
+  <body>
+    <span id="inputs">
+      <p>Noun: <input type="text" name="noun1-input" id="noun1-input"></p>
+      <p>Adjective: <input type="text" name="adj1-input" id="adj1-input"></p>
+      <p>Noun: <input type="text" name="noun2-input" id="noun2-input"></p>
+      <button id="fillButton" onclick="fill()">Fill</button>
+    </span>
+
+    <span id="results">
+      <p>One day when I was coming home from school, I saw something in the corner of my eye on the train platform. It was nothing other then a <span id="noun1-result"></span>!! I could not believe my eyes and I was <span id="adj1-result"></span> <span id="noun2-result"></span>.</p>
+    </span>
+  </body>
+
+  <script type="text/javascript">
+  function fill() {
+    var noun1 = document.getElementById("noun1-input").value;
+    document.getElementById("noun1-result").innerHTML = noun1;
+    var adj1 = document.getElementById("adj1-input").value;
+    var noun2 = document.getElementById("noun2-input").value;
+    document.getElementById("noun2-result").innterHTML = noun2
+    document.getElementById("adj1-result").innerHTML = adj1;
+    document.getElementById("results").style.display = "block";
+    document.getElementById("inputs").style.display = "none";
+  }
+  </script>
+</html>

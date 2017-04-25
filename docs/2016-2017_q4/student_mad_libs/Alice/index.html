@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    #results {
+      display: none;
+    }
+    h2 {color: #fc99df;
+        font-family: "Century Gothic";}
+    body {color: #5ebded;
+          font-family: "Century Gothic";
+          background-color: #fffb9b}
+
+  </style>
+
+  <head>
+    <title>Mad Libs</title>
+  </head>
+
+  <body>
+    <span id="inputs">
+      <p> <i><h2>Plural noun:</h2></i> <input type="text" name="noun1-input" id="noun1-input"></p>
+      <p><i><h2>Verb ending in ING:</h2></i> <input type="text" name="verb1-input" id="verb1-input"></p>
+      <p><i><h2>Adjective:</h2></i> <input type="text" name="adj1-input" id="adj1-input"></p>
+      <button id="fillButton" onclick="fill()">Fill</button>
+    </span>
+
+    <span id="results">
+      <p>"The worst thing about prison was the  <span id="noun1-result"></span>. They were <span id="verb1-result"></span> all over the place and the <span id="noun2-result"></span> were <span id="adj1-result"></span> and they'd come down and they'd suck the soul out of your body and it hurt!"</p>
+    </span>
+  </body>
+
+  <script type="text/javascript">
+  function fill() {
+    var noun1 = document.getElementById("noun1-input").value;
+    document.getElementById("noun1-result").innerHTML = noun1;
+
+    document.getElementById("noun2-result").innerHTML = noun1;
+    
+    var adj1 = document.getElementById("verb1-input").value;
+    document.getElementById("verb1-result").innerHTML = adj1;
+    
+    var adj2 = document.getElementById("adj1-input").value;
+    document.getElementById("adj1-result").innerHTML = adj2;
+
+    document.getElementById("results").style.display = "block";
+    document.getElementById("inputs").style.display = "none";
+  }
+  </script>
+</html>

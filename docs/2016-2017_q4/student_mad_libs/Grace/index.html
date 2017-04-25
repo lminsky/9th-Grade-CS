@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    #results {
+      display: none;
+    }
+    #adj1-result {
+      text-transform: capitalize;
+    }
+
+    #inputs{
+    	color: #4292f4
+    }
+  </style>
+
+  <head>
+    <title>Mad Libs</title>
+  </head>
+
+  <body>
+    <span id="inputs">
+      <p>Plural Noun: <input type="text" name="plural-noun1-input" id="noun1-input"></p>
+      <p>Adjective: <input type="text" name="adj1-input" id="adj1-input"></p>
+      <p>Adjective: <input type="text" name="adj2-input" id="adj2-input"></p>
+      <p>Verb: <input type="text" name="verb1-input" id="verb1-input"></p>
+      <p>Adjective: <input type="text" name="adj3-input" id="adj3-input"></p>
+      <button id="fillButton" onclick="fill()">Fill</button>
+    </span>
+
+    <span id="results">
+      <p>One day at breakfast, I was drinking a coffee and eating some <span id="noun1-result"></span>, when a <span id="adj1-result"></span> spider crawled up the side of my coffee cup. It was very <span id="adj2-result"></span>.I wish I could <span id="verb1-result"></span>it, but I'm too <span id="adj3-result"></span>.</p>
+    </span>
+  </body>
+
+  <script type="text/javascript">
+  function fill() {
+  	console.log("test")
+    var noun1 = document.getElementById("noun1-input").value;
+    document.getElementById("noun1-result").innerHTML = noun1;
+    var adj1 = document.getElementById("adj1-input").value;
+    document.getElementById("adj1-result").innerHTML = adj1;
+    var adj2 = document.getElementById("adj2-input").value;
+    document.getElementById("adj2-result").innerHTML = adj2;
+     var verb1 = document.getElementById("verb1-input").value;
+    document.getElementById("verb1-result").innerHTML = verb1;
+     var adj3 = document.getElementById("adj3-input").value;
+    document.getElementById("adj3-result").innerHTML = adj3;
+    document.getElementById("results").style.display = "block";
+    document.getElementById("inputs").style.display = "none";
+  }
+  </script>
+</html>

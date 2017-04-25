@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    #results {
+      display: none;
+    }
+    #adj1-result {
+      text-transform: capitalize; 
+    }
+  </style>
+
+  <head>
+    <title>Mad Libs</title>
+  </head>
+
+  <body>
+    <span id="inputs">
+      <p>verb(ending in ing): <input type="text" name="verb(ending in ing)-input" id="verb1-input"></p>
+      <p>Adjective: <input type="text" name="adj1-input" id="adj1-input"></p>
+      <p>Noun: <input type="text" name="noun1-input" id="noun1-input"></p>
+      <p>Color:<input type="text" name="color1-input" id="color1-input"></p>
+      <p>Female Name: <input type="text" name="name1-input" id="name1-input"></p>
+      <button id="fillButton" onclick="fill()">Fill</button>
+    </span>
+
+    <span id="results">
+      <p><span id="name1-result"></span> was <span id="verb1-result"></span> to school. <span id="name1-result2"></span> was eating a <span id="adj1-result"></span> acai bowl. She loves <span id="noun1-result"></span> especially on the weekend. Her backpack is <span id="color1-result"></span> because it's the color of her soul. </p> 
+    </span>
+  </body>
+  <body style="background-color: #ff93ed;" >
+
+  <script type="text/javascript">
+  function fill() {
+    var verb1 = document.getElementById("verb1-input").value;
+    document.getElementById("verb1-result").innerHTML = verb1;
+    var adj1 = document.getElementById("adj1-input").value;
+    document.getElementById("adj1-result").innerHTML = adj1;
+     var noun1 = document.getElementById("noun1-input").value;
+    document.getElementById("noun1-result").innerHTML = noun1;
+     var color1 = document.getElementById("color1-input").value;
+    document.getElementById("color1-result").innerHTML = color1;
+    document.getElementById("results").style.display = "block";
+    document.getElementById("inputs").style.display = "none";
+    var name1 = document.getElementById("name1-input").value;
+    document.getElementById("name1-result").innerHTML = name1;
+     var name1 = document.getElementById("name1-input").value;
+    document.getElementById("name1-result2").innerHTML = name1;
+  }
+  </script>
+</html>

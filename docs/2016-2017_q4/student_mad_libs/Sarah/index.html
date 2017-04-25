@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    #results {
+      display: none;
+
+    }
+    #adj1-result {
+      color: #195aff;
+    }
+    #name1-result {
+    	text-transform: capitalize;
+    	color: #195aff;
+    }
+    #object1-result{
+ 		color: #195aff;
+    }
+    #animal1-result{
+    	color: #195aff;
+    }
+    .header{
+    	color:#195aff;
+    	text-align: center;
+    	text-shadow:1px 2px 3px;
+    }
+  </style>
+
+  <head>
+    <title>Mad Libs</title>
+  </head>
+
+  <body style="font-family: Bakersville">
+    <i><h1 class="header">Mad Libs</h1></i>
+    <span id="inputs">
+      <p>Name: <input type="text" name="name1-input" id="name1-input"></p>
+      <p>Animal: <input type="text" name="animal1-input" id="animal1-input"></p>
+      <p>Adjective: <input type="text" name="adj1-input" id= adj1-input></p>
+      <p>Object: <input type="text" name="object1" id= object1-input></p>
+      <button id="fillButton" onclick="fill()">Fill</button>
+    </span>
+
+    <span id="results">
+      <p>One day <span id="name1-result"></span> was walking her <span id="animal1-result"></span> down the street, they walked past a <span id="adj1-result"></span> witch. The witch cast a spell on the <span id="animal2-result"></span> and he turned into a <span id="object1-result"></span>.</p>
+    </span>
+  </body>
+
+  <script type="text/javascript">
+  function fill() {
+    var name1 = document.getElementById("name1-input").value;
+    document.getElementById("name1-result").innerHTML = name1;
+
+    var animal1 = document.getElementById("animal1-input").value;
+    document.getElementById("animal1-result").innerHTML = animal1;
+    document.getElementById("animal2-result").innerHTML = animal1;
+
+    var adj1 = document.getElementById("adj1-input").value;
+    document.getElementById("adj1-result").innerHTML = adj1;
+
+    var object1 = document.getElementById("object1-input").value;
+    document.getElementById("object1-result").innerHTML = object1;
+
+    document.getElementById("results").style.display = "block";
+    document.getElementById("inputs").style.display = "none";
+  }
+  </script>
+</html>
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    #results {
+      display: none; }
+  h2 {color: #1fa384; 
+      font-family: "arial";}
+  button { font-size: 30px; 
+        background-color: #70c1ae;
+        padding: 5px 11px;}
+  body{background-color:#f7f9a7;}
+  </style>
+
+  <head>
+    <title>Mad Libs:)</title>
+  </head>
+
+  <body>
+    <span id="inputs">
+       <h2>Adjective: <input type="text" name="adj1-input" id="adj1-input"></h2>
+      <h2>Plural Noun: <input type="text" name="noun1-input" id="noun1-input"></h2>
+      <h2>Adjective: <input type="text" name="adj2-input" id="adj2-input"></h2>
+      <button id="fillButton" onclick="fill()">Fill</button>
+    </span>
+
+    <span id="results">
+      <h2> Ninth grade can be <span id="adj1-result"> </span>, but if you find good <span id="noun1-result"></span> it will be a <span id="adj2-result"></span> time. </h2>
+    </span>
+
+    <img src="http://gitastudents.com/hsingjacob/Mad.png">
+  </body>
+
+  <script type="text/javascript">
+  function fill() {
+    var noun1 = document.getElementById("noun1-input").value;
+    document.getElementById("noun1-result").innerHTML = noun1;
+    var adj1 = document.getElementById("adj1-input").value;
+    document.getElementById("adj1-result").innerHTML = adj1;
+    var adj1 = document.getElementById("adj2-input").value;
+    document.getElementById("adj2-result").innerHTML = adj1;
+    document.getElementById("results").style.display = "block";
+    document.getElementById("inputs").style.display = "none";
+  }
+  </script>
+</html>
+
+ 

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	#results {
+		display:none;
+	}
+	#number1-result {
+		text-transform: lowercase;
+	}
+
+	#adj1-result {
+		text-transform: lowercase;
+	}
+	body{
+		font-family: "Comic Sans MS";
+	}
+</style>
+<head>
+	<title>Mad Libs</title>
+</head>
+
+<body bgcolor="#85c3fc">
+
+<span style="text-shadow: 6px 3.5px #689bc9"><h1>Samir's Mad Libs</h1></span>
+<img src="http://gitastudents.com/hsingjacob/Mad.png" height="125" width="135">
+<br>
+	<span id="inputs">
+		<p>Name: <input type="text" name="name1-input" id="name1-input"></p>
+		<p>Number: <input type="text" name="number1-input" id="number1-input"></p>
+		<p>Adjective: <input type="text" name="adj1-input" id="adj1-input"></p>
+		<p>Noun: <input type="text" name="noun1-input" id="noun1-input"></p>
+		<p>Adjective: <input type="text" name="adj2-input" id="adj2-input"></p>
+		<p>Verb: <input type="text" name="verb1-input" id="verb1-input"></p>
+		<p>Place: <input type="text" name="place1-input" id="place1-input"></p>
+		<button id="fillButton" onclick="fill()">LET'S GO</button>
+	</span>
+
+	<span id="results">
+		<p> On <u><span id="name1-result"></span></u>'s <u><span id="number1-result"></span></u>th birthday, he ate a very <u><span id="adj1-result"></span></u> <u><span id="noun1-result"></span></u>. This made <u><span id="name2-result"></span></u> very <u><span id="adj2-result"></span></u>. That night, <u><span id="name3-result"></span></u> decided to <u><span id="verb1-result"></span></u> all the way to <u><span id="place1-result"></span></u>.
+		<p>Ok that's the end of the story thanks for playing.</p>
+	</span>
+	<br>
+	<br>
+	<button id="fillButton" onclick="location.reload()">PLAY AGAIN</button>
+</body>
+<script type="text/javascript">
+	function fill() {
+		var name1 = document.getElementById("name1-input").value;
+		document.getElementById("name1-result").innerHTML = name1;
+		document.getElementById("name2-result").innerHTML = name1;
+		document.getElementById("name3-result").innerHTML = name1;
+
+		var number1 = document.getElementById("number1-input").value;
+		document.getElementById("number1-result").innerHTML = number1;
+
+		var adj1 = document.getElementById("adj1-input").value;
+		document.getElementById("adj1-result").innerHTML = adj1;
+
+		var noun1 = document.getElementById("noun1-input").value;
+		document.getElementById("noun1-result").innerHTML = noun1;
+
+		var adj2 = document.getElementById("adj2-input").value;
+		document.getElementById("adj2-result").innerHTML = adj2;
+
+		var verb1 = document.getElementById("verb1-input").value;
+		document.getElementById("verb1-result").innerHTML = verb1;
+
+		var place1 = document.getElementById("place1-input").value;
+		document.getElementById("place1-result").innerHTML = place1;
+
+		document.getElementById("results").style.display = "block";
+		document.getElementById("inputs").style.display = "none";
+	}
+</script>
+</html>
