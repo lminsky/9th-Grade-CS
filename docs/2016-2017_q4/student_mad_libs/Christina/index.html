@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    #results {
+      display: none;
+    }
+    #adj1-result {
+      text-transform: capitalize;
+    }
+
+    body{
+    	font-family: Garamond;
+    	background-color: #d1f7ff;
+    }
+
+    #verb1-result {
+
+    	color: #fc008f;
+
+    }
+
+    #noun1-result {
+
+    	color:#fc008f;
+
+    }
+
+    #bodypart-result{
+
+    	color: #fc008f;
+    }
+
+    #name-result{ 
+
+    	color:#fc008f;
+
+     }
+
+     #name-result2{
+
+     	color:#fc008f;
+     }
+  </style>
+
+  <head>
+    <title>Mad Libs</title>
+  </head>
+
+  <h1 style="color: grey"> MAD LIBS</h1>
+
+  <body>
+    <span id="inputs">
+      <p>Verb: <input type="text" name="verb1-input" id="verb1-input"></p>
+      <p>Noun: <input type="text" name="noun1-input" id="noun1-input"></p>
+      <p>Body part: <input type="text" name="bodypart-input" id=bodypart-input></p>
+      <p> Name: <input type="text" name= "name" id= name-input></p>
+
+      <button id="fillButton" onclick="fill()">Fill</button>
+
+    </span>
+
+    <span id="results">
+      <p><h3> Susan was <span id="verb1-result"></span> down the block and then she ran into a <span id="noun1-result"></span>. She fell over and broke her <span id="bodypart-result"></span> and her friend <span id="name-result"></span> came over and carried her to the hospital. <span id= "name-result2"></span> was very nervous for Susan. In the end, Susan was ok!</h3>
+
+    </span>
+  </body>
+
+  <script type="text/javascript">
+  function fill() {
+    var verb1 = document.getElementById("verb1-input").value;
+    document.getElementById("verb1-result").innerHTML = verb1;
+
+    var adj1 = document.getElementById("noun1-input").value;
+    document.getElementById("noun1-result").innerHTML = adj1;
+
+   var adj1 = document.getElementById("bodypart-input").value;
+    document.getElementById("bodypart-result").innerHTML = adj1;
+
+       var adj1 = document.getElementById("name-input").value;
+    document.getElementById("name-result").innerHTML = adj1;
+
+    document.getElementById("name-result2").innerHTML = adj1;
+
+
+    document.getElementById("results").style.display = "block";
+    document.getElementById("inputs").style.display = "none";
+
+  }
+  </script>
+</html>

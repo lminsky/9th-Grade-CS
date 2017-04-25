@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	#results {
+		display: none;
+	}
+body{
+  background-color: powderblue;
+  font-size: 24pt;
+}
+</style>
+
+<head>
+	<title>Mad Libs</title>
+</head>
+
+<body>
+ <span id="inputs">
+      <p> Name: <input type="text" name="name" id="Name-input"></p>
+      <p>Verb (infinitive): <input type="text" name="Verb" id="Verb-input"></p>
+      <p>Noun (plural): <input type="text" name="Noun" id="Noun-input"></p>
+      <p>Adjective: <input type="text" name="Adjective" id="Adjective-input"></p>
+      <button id="fillButton" onclick="fill()">Fill</button>
+    </span>
+<span id="results">
+<p>As a young tot, <span id="Name-result"></span>, was always getting into trouble. He loved <span id="Verb-result"></span> other <span id="Noun-result"></span> all the time. Especially when he felt <span id="Adjective-result"></span>. </p>
+</span>
+</body>
+
+<script type="text/javascript">
+  function fill() {
+    var Name = document.getElementById("Name-input").value;
+    document.getElementById("Name-result").innerHTML = Name;
+    
+    var Verb = document.getElementById("Verb-input").value;
+    document.getElementById("Verb-result").innerHTML = Verb;
+    
+    var Noun = document.getElementById("Noun-input").value;
+    document.getElementById("Noun-result").innerHTML = Noun;
+    
+    var Adjective = document.getElementById("Adjective-input").value;
+    document.getElementById("Adjective-result").innerHTML = Adjective;
+   
+    document.getElementById("results").style.display = "block";
+    document.getElementById("inputs").style.display = "none";
+  }
+</script>
+
+</html>
