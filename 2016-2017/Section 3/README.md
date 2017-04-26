@@ -51,3 +51,8 @@
 ### [2017-04-24](Classwork/2017-04-24)
 * Read and evaluate existing code
 * Create your own mad libs
+
+### [2017-04-25](Classwork/2017-04-25)
+* Continue work on mad libs
+  * Try to use the value from one input field in two different places in the result.
+  * Add styling to the mad libs
