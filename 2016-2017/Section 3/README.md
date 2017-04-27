@@ -56,3 +56,9 @@
 * Continue work on mad libs
   * Try to use the value from one input field in two different places in the result.
   * Add styling to the mad libs
+
+### [2017-04-27](Classwork/2017-04-27)
+* Start on p5
+  * createCanvas(width, height)
+  * background(red, green, blue)
+  * rect(x, y, width, height)
