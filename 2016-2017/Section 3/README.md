@@ -70,3 +70,8 @@
   * fill
   * stroke
   * Ice Cream
+
+### [2017-05-01](Classwork/2017-05-01)
+* Stripes!
+  * Using variables
+  * using the draw loop

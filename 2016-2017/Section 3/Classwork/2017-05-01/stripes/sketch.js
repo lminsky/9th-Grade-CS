@@ -1,0 +1,64 @@
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  background(200, 0, 200);
+
+  fill(0, 0, 0);
+  noStroke();
+
+  var y = 0;
+  var x = 0;
+  var w = width;
+  var h = 20;
+  var yChange = h * 2;
+
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+  rect(x, y, w, h);
+  y = y + yChange;
+}
