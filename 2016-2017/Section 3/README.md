@@ -62,3 +62,11 @@
   * createCanvas(width, height)
   * background(red, green, blue)
   * rect(x, y, width, height)
+
+### [2017-04-28](Classwork/2017-04-28)
+* 2D Shapes in p5
+  * Rect
+  * Ellipse
+  * fill
+  * stroke
+  * Ice Cream
