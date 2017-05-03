@@ -75,3 +75,7 @@
 * Stripes!
   * Using variables
   * using the draw loop
+
+### [2017-05-03](Classwork/2017-05-03)
+* Bouncing Balls
+  * Using conditionals (if statements)
