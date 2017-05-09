@@ -79,3 +79,12 @@
 ### [2017-05-03](Classwork/2017-05-03)
 * Bouncing Balls
   * Using conditionals (if statements)
+
+### [2017-05-03](Classwork/2017-05-03)
+* More Bouncing Balls
+  * Using conditionals (if statements)
+  * Random
+
+### [2017-05-08](Classwork/2017-05-08)
+* Talk about Pong
+* Introduce mouseX and mouseY
