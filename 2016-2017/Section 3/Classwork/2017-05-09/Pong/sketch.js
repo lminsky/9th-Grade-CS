@@ -53,7 +53,7 @@ function draw() {
     speedY = abs(speedY)            //Make it move down
   }
 
-  fillColor = 0;                    //Set the variable to 0
+  fillColor = 0;                    //Set the variable fillColor to 0
 
   fill(fillColor, 0, 0);            //Set the fill to either black or red (depending on the conditional above)
   noStroke();                       //Remove the stroke from the shapes
