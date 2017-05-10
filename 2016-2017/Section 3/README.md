@@ -88,3 +88,8 @@
 ### [2017-05-08](Classwork/2017-05-08)
 * Talk about Pong
 * Introduce mouseX and mouseY
+
+### [2017-05-09](Classwork/2017-05-09)
+* Work on pong
+  * Merge paddle and ball
+  * Discuss how the paddle and ball interact

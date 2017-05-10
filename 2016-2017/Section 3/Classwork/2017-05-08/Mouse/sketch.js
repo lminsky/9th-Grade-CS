@@ -1,21 +1,26 @@
-var y;
-var h;
+var paddleX;
+var paddleY;
+var paddleH;
+var paddleW;
+
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  h = 150
+  paddleH = 150;
+  paddleW = 20;
+  paddleX = 10;
 }
 
 function draw() {
-  background(0, 255, 255);
-  console.log(mouseX + ", " + mouseY);
-  fill(0, 0, 0);
-  if(mouseY < h/2) {
+  background(255, 255, 255);
+
+  if(mouseY < paddleH/2) {
     y = 0;
-  } else if(mouseY > height - h/2) {
-    y = height - h;
+  } else if(mouseY > height - paddleH/2) {
+    paddleY = height - paddleH;
   } else {
-    y = mouseY - 75;
+    paddleY = mouseY - paddleH/2;
   }
-  rect(10, y, 20, h);
+
+  rect(paddleX, paddleY, paddleW, paddleH);
 }
