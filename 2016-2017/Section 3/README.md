@@ -93,3 +93,8 @@
 * Work on pong
   * Merge paddle and ball
   * Discuss how the paddle and ball interact
+
+### [2017-05-10](Classwork/2017-05-10)
+* Work on pong
+  * Make the ball bounce off the paddle
+  * Keeping score
