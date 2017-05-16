@@ -65,18 +65,7 @@ function draw() {
 
   fillColor = 0;                    //Set the variable fillColor to 0
 
-  if(ballY < paddleY + paddleH) {
-    if(ballY > paddleY) {
-      if(ballX - ballD/2 < paddleX + paddleW) {
-        if(ballX - ballD/2 > paddleX) {
-          speedX = abs(speedX);
-          score = score + 1;
-        }
-      }
-    }
-  }
-
-    if(ballX - ballD/2 < paddleX + paddleW) { //If the left side of the ball is to the left of the right side of the paddle...
+  if(ballX - ballD/2 < paddleX + paddleW) { //If the left side of the ball is to the left of the right side of the paddle...
     if(ballY > paddleY) {                   //...and the center of the ball is below the top of the paddle...
       if(ballY < paddleY + paddleH) {       //...and the center of the ball is above the bottom of the paddle...
         if(ballX - ballD/2 > paddleX) {     //...and the right side of the ball is to the right of the left side of the paddle...
