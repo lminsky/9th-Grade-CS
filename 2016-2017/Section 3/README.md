@@ -98,3 +98,16 @@
 * Work on pong
   * Make the ball bounce off the paddle
   * Keeping score
+
+### [2017-05-15](Classwork/2017-05-15)
+* Introducing Unity
+  * The different panels (hierarchy, scene, inspector, assets)
+  * Adding terrain
+    * Raise/Lower Tool
+    * Paint Tool
+    * Smooth Tool
+
+### [2017-05-17](Classwork/2017-05-17)
+* Adding variety to your Unity landscapes
+  * Textures
+  * Trees
