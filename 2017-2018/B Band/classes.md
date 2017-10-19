@@ -12,3 +12,9 @@
 * Text (p, b, u, i)
 * Links (a)
 * Homework: start working on a personal website. Make sure to use the tags we've learned so far.
+
+### [2017-10-19](Classwork/2017-10-19/)
+* Images (Absolute vs Relative Links)
+* Embed Videos
+* W3Schools Reference
+* Homework: Use the W3Schools reference to figure out how to add an unordered or ordered list to your webpage.

@@ -10,3 +10,10 @@
 * Introduction to html
 * Headings (h1 - h6)
 * Text (p, b, u, i)
+* Homework: start working on a personal website. Make sure to use the tags we've learned so far.
+
+### [2017-10-18](Classwork/2017-10-18/)
+* Links
+* Images (absolute vs relative links)
+* Video Embeds
+* Homework: Keep working on your site. Add links, images, and videos.
