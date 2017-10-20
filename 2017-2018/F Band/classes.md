@@ -17,3 +17,8 @@
 * Images (absolute vs relative links)
 * Video Embeds
 * Homework: Keep working on your site. Add links, images, and videos.
+
+### [2017-10-20](Classwork/2017-10-20/)
+* Lists (OL / UL)
+* CSS: font-size, color, font-family
+* Homework: Keep working on your site. Modify the style of your page using some CSS that we didn't discuss in class. When you upload it, include a description of what it does.

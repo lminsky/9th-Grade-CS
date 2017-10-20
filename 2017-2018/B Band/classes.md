@@ -18,3 +18,8 @@
 * Embed Videos
 * W3Schools Reference
 * Homework: Use the W3Schools reference to figure out how to add an unordered or ordered list to your webpage.
+
+### [2017-10-20](Classwork/2017-10-20/)
+* Review adding tables (ul and ol)
+* Start using CSS: font-size, color, font-family
+*  Homework: Look around the CSS reference. Find a style property that we didn't discuss in class and use it on your webpage. When you submit it on the Google Classroom, include a short description of what the property does.
