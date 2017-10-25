@@ -23,3 +23,7 @@
 * Review adding tables (ul and ol)
 * Start using CSS: font-size, color, font-family
 *  Homework: Look around the CSS reference. Find a style property that we didn't discuss in class and use it on your webpage. When you submit it on the Google Classroom, include a short description of what the property does.
+
+### [2017-10-25](Classwork/2017-10-25/)
+* CSS ID and Class
+* Homework: Finish up working on your site. Use what we've learned so far with HTML and CSS to make it look how you'd like. We're going to put the sites online next class and share them for everyone in the class to see.
