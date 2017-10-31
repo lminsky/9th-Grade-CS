@@ -31,3 +31,8 @@
 ### [2017-10-30](Classwork/2017-10-30/)
 * Put webpage online using GitHub
 * HW: Complete the Women in STEM survey.
+
+### [2017-10-31](Classwork/2017-10-31/)
+* Look at websites that other people made
+* Use Javascript to create a button that does stuff
+* Homework: Write a paragraph for your madlibs game.
