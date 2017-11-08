@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MadLibs</title>
+</head>
+
+<style>
+  #text {
+    display: none;
+  }
+</style>
+
+<script>
+  function submit() {
+    var nounWord = document.getElementById("nounField").value;
+    document.getElementById("noun").innerHTML = nounWord;
+
+    var verbWord = document.getElementById("verbField").value;
+    document.getElementById("verb").innerHTML = verbWord;
+
+    document.getElementById("text").style.display = "block";
+  }
+</script>
+
+
+<body>
+
+Noun: <input type="text" id="nounField"><br>
+Verb: <input type="text" id="verbField"><br>
+<br><button id="submitButton" onclick="submit()">Submit</button>
+
+<p id="text">This is my <span id="noun"></span>. I like to <span id="verb"></span>.</p>
+
+</body>
+</html>
