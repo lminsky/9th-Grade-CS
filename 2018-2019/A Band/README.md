@@ -3,7 +3,7 @@ Louis Minsky - lminsky@packer.edu
 Room G145B  
 
 ### Course Description
-In this course students will explore a variety of topics within Computer Science. We will start with a unit on web development and create simple websites using HTML and CSS. We will then focus on programming using the p5 Javascript library with the goal of creating a basic Pong-style game. AFinally we will explore physical computer using the Arduino microcontroller. Students will work to better understand the capabilities and constraints of software systems.
+In this course students will explore a variety of topics within Computer Science. We will start with a unit on web development and create simple websites using HTML and CSS. We will then focus on programming using the p5 Javascript library with the goal of creating a basic Pong-style game. Finally we will explore physical computer using the Arduino microcontroller. Students will work to better understand the capabilities and constraints of software systems.
 
 ### Texts & Software
 There is no textbook for this course. Any required material will be distributed either as a handout or posted online. 
