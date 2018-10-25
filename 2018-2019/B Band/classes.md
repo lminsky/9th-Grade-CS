@@ -15,7 +15,7 @@
 ### [2018-10-24](Classwork/2018-10-24/)
 * Introduction to HTML
 * Tags: opening and closing
-* <html>, <head>, <body>
-* <title>
-* <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
-* <p>
+* `<html>`, `<head>`, `<body>`
+* `<title>`
+* `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
+* `<p>`
