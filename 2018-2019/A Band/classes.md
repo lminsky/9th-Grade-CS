@@ -19,3 +19,10 @@
 * `<title>`
 * `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
 * `<p>`
+
+### [2018-10-25](Classwork/2018-10-25/)
+* Introduction to text fomatting
+* Bold: '<b>'
+* Italics: '<i>'
+* Underline: '<u>'
+* More: https://www.w3schools.com/html/html_formatting.asp
