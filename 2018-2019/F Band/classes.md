@@ -20,18 +20,25 @@
 * `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
 * `<p>`
 
+### [2018-10-25](Classwork/2018-10-25/)
+* Introduction to text fomatting
+* Bold: `<b>`
+* Italics: `<i>`
+* Underline: `<u>`
+* More: https://www.w3schools.com/html/html_formatting.asp
+
 ### [2018-10-31](Classwork/2018-10-31/)
 * Lists (ordered vs unordered)
-  * '<ol>'
-  * '<ul>'
-  * '<li>'
+  * `<ol>`
+  * `<ul>`
+  * `<li>`
 * Links
-  * '<a href="">'
+  * `<a href="">`
   * Relative (Internal)
   * Absolute (External)
 
 ### [2018-11-02](Classwork/2018-11-02/)
 * Images!
-  * '<img src="">'
+  * `<img src="">`
 * Benefits of hosting your own images
 * Embedding Video
