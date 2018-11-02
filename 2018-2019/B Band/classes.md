@@ -22,16 +22,16 @@
 
 ### [2018-10-30](Classwork/2018-10-30/)
 * Lists (ordered vs unordered)
-** '<ol>'
-** '<ul>'
-** '<li>'
+  * '<ol>'
+  * '<ul>'
+  * '<li>'
 * Links
-** '<a href="">'
-** Relative (Internal)
-** Absolute (External)
+  * '<a href="">'
+  * Relative (Internal)
+  * Absolute (External)
 
 ### [2018-11-02](Classwork/2018-11-02/)
 * Images!
-** '<img src="">'
+  * '<img src="">'
 * Benefits of hosting your own images
 * Embedding Video
