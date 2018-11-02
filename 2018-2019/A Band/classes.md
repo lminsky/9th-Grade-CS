@@ -26,3 +26,19 @@
 * Italics: '<i>'
 * Underline: '<u>'
 * More: https://www.w3schools.com/html/html_formatting.asp
+
+### [2018-10-30](Classwork/2018-10-30/)
+* Lists (ordered vs unordered)
+** '<ol>'
+** '<ul>'
+** '<li>'
+* Links
+** '<a href="">'
+** Relative (Internal)
+** Absolute (External)
+
+### [2018-11-01](Classwork/2018-11-01/)
+* Images!
+** '<img src="">'
+* Benefits of hosting your own images
+* Embedding Video
