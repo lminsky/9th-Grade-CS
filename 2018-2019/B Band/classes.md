@@ -42,3 +42,33 @@
   *`<img src="">`
 * Benefits of hosting your own images
 * Embedding Video
+
+### [2018-11-08](Classwork/2018-11-08/)
+* CSS
+* Inline style attributes
+* Adjusting text color
+* RGB, xex, additive vs subtractive light
+
+### [2018-11-09](Classwork/2018-11-09/)
+* CSS style tag
+* HTML tag selector
+
+### [2018-11-14](Classwork/2018-11-14/)
+* class and id attributes
+* .class and #id selectors
+
+### [2018-11-19](Classwork/2018-11-19/)
+* Using terminal
+* ls, cd, pwd, nano
+* SimpleHTTPServer
+
+### [2018-11-20](Classwork/2018-11-20/)
+* Internal and external IP addresses
+* Ports
+* Web Hosting
+
+### [2018-11-28]()
+* Getting started with p5
+* setup and draw
+* createCanvas and background
+* Shapes: rect, ellipse, triangle
