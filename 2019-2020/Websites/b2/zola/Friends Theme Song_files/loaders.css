@@ -1,0 +1,29 @@
+div.loader {
+	display: none;
+    height: 160px;
+    left: 50%;
+    margin-left: -80px;
+    margin-top: -80px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    width: 160px;
+    z-index: 800;
+}
+
+div.gears {
+	background: url('../img/gears.gif') 0 0 transparent;
+}
+
+div.loader_overlay {
+    background: black;
+    display: none;
+    height: 100%;
+    margin: 0;
+    opacity: 0.5;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 700;
+}
