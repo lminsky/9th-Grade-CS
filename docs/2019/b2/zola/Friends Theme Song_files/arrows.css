@@ -1,0 +1,691 @@
+#arrow_dialog_ext_ch {
+  text-align: right;
+  display: none;
+  position: fixed;
+  width: 275px;
+  z-index: 1000;
+  -webkit-animation: fadein 2s;
+  animation: fadein 1s;
+  margin-top: -40px;
+  background: none;
+  box-shadow: none; }
+  #arrow_dialog_ext_ch #arrow_dialog_mv_container {
+    position: relative; }
+    #arrow_dialog_ext_ch #arrow_dialog_mv_container #arrow_dialog_mv {
+      position: absolute;
+      text-align: center;
+      background-image: url("../img/bg.png");
+      background-repeat: no-repeat;
+      width: 220px;
+      height: 155px; }
+      #arrow_dialog_ext_ch #arrow_dialog_mv_container #arrow_dialog_mv #blue-arrow_text {
+        color: white;
+        position: relative;
+        font-size: 20px;
+        top: 20px;
+        left: 27px;
+        display: block;
+        max-width: 175px;
+        line-height: 1.4; }
+
+#arrow_dialog_ext_ff {
+  text-align: right;
+  display: none;
+  position: fixed;
+  width: 370px;
+  z-index: 1000;
+  -webkit-animation: fadein 2s;
+  animation: fadein 1s;
+  background: none;
+  box-shadow: none; }
+  #arrow_dialog_ext_ff #arrow_dialog_mv_container {
+    position: relative; }
+    #arrow_dialog_ext_ff #arrow_dialog_mv_container #arrow_dialog_mv {
+      position: absolute;
+      text-align: center;
+      background-image: url("../img/blue-arrow-white-box.png");
+      background-repeat: no-repeat;
+      width: 370px;
+      height: 155px; }
+      #arrow_dialog_ext_ff #arrow_dialog_mv_container #arrow_dialog_mv #blue-arrow_text {
+        color: #3a3a3a;
+        position: relative;
+        font-size: 20px;
+        top: 85px;
+        left: 20px;
+        display: block;
+        line-height: 1.4; }
+
+.arrow_dialog_ins_mac {
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: #222;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: none;
+  overflow: auto;
+  z-index: 1000; }
+  .arrow_dialog_ins_mac .instructions-container {
+    position: fixed;
+    left: 130px;
+    bottom: 0; }
+  .arrow_dialog_ins_mac .card {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    z-index: 10;
+    border: 1px solid rgba(0, 0, 0, 0.6); }
+    .arrow_dialog_ins_mac .card .text {
+      font-size: 20px;
+      text-align: left;
+      position: relative;
+      width: auto;
+      height: auto;
+      line-height: normal;
+      padding: 5px 10px; }
+      .arrow_dialog_ins_mac .card .text p {
+        margin: auto;
+        margin-bottom: 15px;
+        margin-right: 5px; }
+      .arrow_dialog_ins_mac .card .text .triangle-center {
+        position: absolute;
+        width: 18px;
+        height: 20px;
+        right: -17px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: white;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        border-radius: 3px;
+        z-index: -1; }
+  .arrow_dialog_ins_mac .arrow {
+    position: fixed;
+    z-index: 99999; }
+    .arrow_dialog_ins_mac .arrow span {
+      display: block; }
+    .arrow_dialog_ins_mac .arrow .arrow-tip {
+      width: 0;
+      height: 0; }
+
+.arrow_dialog_ins_win {
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: #222;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: none;
+  overflow: auto;
+  z-index: 1000; }
+  .arrow_dialog_ins_win .instructions-container {
+    position: fixed;
+    left: 130px;
+    bottom: 0; }
+  .arrow_dialog_ins_win .card {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    z-index: 10;
+    border: 1px solid rgba(0, 0, 0, 0.6); }
+    .arrow_dialog_ins_win .card .text {
+      font-size: 20px;
+      text-align: left;
+      position: relative;
+      width: auto;
+      height: auto;
+      line-height: normal;
+      padding: 8px 15px; }
+      .arrow_dialog_ins_win .card .text p {
+        margin: auto;
+        margin-bottom: 15px;
+        margin-right: 5px; }
+      .arrow_dialog_ins_win .card .text .triangle-center {
+        position: absolute;
+        width: 18px;
+        height: 20px;
+        right: -23px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: white;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        border-radius: 3px;
+        z-index: -1; }
+  .arrow_dialog_ins_win .arrow {
+    position: fixed;
+    z-index: 99999; }
+    .arrow_dialog_ins_win .arrow span {
+      display: block; }
+    .arrow_dialog_ins_win .arrow .arrow-tip {
+      width: 0;
+      height: 0; }
+
+#arrow_dialog_ins_ch_mac .card {
+  float: left;
+  margin: auto;
+  margin-left: 15px;
+  margin-bottom: 15px; }
+  #arrow_dialog_ins_ch_mac .card .img-div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    position: relative;
+    height: 200px; }
+    #arrow_dialog_ins_ch_mac .card .img-div.step1img {
+      width: 320px;
+      background-image: url("../img/mac_ch/step1.png"); }
+      #arrow_dialog_ins_ch_mac .card .img-div.step1img .file-name {
+        position: absolute;
+        top: 171px;
+        left: 35px;
+        font-weight: 700;
+        color: #00000096; }
+      #arrow_dialog_ins_ch_mac .card .img-div.step1img .file-name-circle {
+        position: absolute;
+        top: 83px;
+        left: 188px;
+        font-weight: 700;
+        color: #00000096; }
+    #arrow_dialog_ins_ch_mac .card .img-div.step2img {
+      width: 280px;
+      background-image: url("../img/mac_ch/step2.png"); }
+    #arrow_dialog_ins_ch_mac .card .img-div.step3img {
+      width: 430px;
+      background-image: url("../img/mac_ch/step3.png"); }
+      #arrow_dialog_ins_ch_mac .card .img-div.step3img .file-name {
+        position: absolute;
+        top: 80px;
+        left: 201px;
+        font-weight: 700;
+        color: #808080bd;
+        letter-spacing: 0.4px;
+        width: 90px;
+        text-align: center; }
+      #arrow_dialog_ins_ch_mac .card .img-div.step3img .file-name-url {
+        position: absolute;
+        top: 104px;
+        left: 82px;
+        font-size: 7px;
+        font-weight: 700;
+        color: #808080bd; }
+#arrow_dialog_ins_ch_mac .arrow {
+  bottom: 10px;
+  left: 10px; }
+  #arrow_dialog_ins_ch_mac .arrow .arrow-tip {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 60px solid #38d078; }
+  #arrow_dialog_ins_ch_mac .arrow .arrow-body {
+    background: #38d078;
+    width: 60px;
+    height: 150px;
+    margin-left: 20px; }
+
+#arrow_dialog_ins_ff_mac .card {
+  display: block;
+  clear: both;
+  width: 454px;
+  top: 15px;
+  float: right;
+  margin: auto;
+  margin-right: 80px;
+  margin-bottom: 15px; }
+  #arrow_dialog_ins_ff_mac .card .text .triangle-center {
+    top: initial;
+    right: initial;
+    bottom: -8px;
+    left: 214px; }
+  #arrow_dialog_ins_ff_mac .card .text img {
+    max-width: 100%;
+    max-height: 150px; }
+  #arrow_dialog_ins_ff_mac .card .text .img-div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    position: relative;
+    height: 140px; }
+    #arrow_dialog_ins_ff_mac .card .text .img-div.step1img {
+      width: 320px;
+      background-image: url("../img/mac_ff/step1.png"); }
+      #arrow_dialog_ins_ff_mac .card .text .img-div.step1img .file-name {
+        position: absolute;
+        top: 45px;
+        left: 25px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #10110C; }
+      #arrow_dialog_ins_ff_mac .card .text .img-div.step1img .file-name-url {
+        position: absolute;
+        top: 76px;
+        left: 50px;
+        font-size: 10px;
+        font-weight: 700; }
+    #arrow_dialog_ins_ff_mac .card .text .img-div.step2img {
+      width: 280px;
+      background-image: url("../img/mac_ff/step2.png"); }
+    #arrow_dialog_ins_ff_mac .card .text .img-div.step3img {
+      width: 430px;
+      background-image: url("../img/mac_ff/step3.png"); }
+      #arrow_dialog_ins_ff_mac .card .text .img-div.step3img .file-name {
+        position: absolute;
+        top: 50px;
+        left: 55px;
+        font-size: 11px;
+        font-weight: 700; }
+    #arrow_dialog_ins_ff_mac .card .text .img-div.step4img {
+      background-image: url("../img/mac_ff/step2.png"); }
+#arrow_dialog_ins_ff_mac .arrow {
+  top: 10px;
+  right: 89px; }
+  #arrow_dialog_ins_ff_mac .arrow .arrow-tip {
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 55px solid #38d078; }
+  #arrow_dialog_ins_ff_mac .arrow .arrow-body {
+    background: #38d078;
+    width: 45px;
+    height: 80px;
+    margin-left: 19px; }
+
+#arrow_dialog_ins_sa_mac .card {
+  display: block;
+  clear: both;
+  width: 454px;
+  top: 15px;
+  float: right;
+  margin: auto;
+  margin-right: 105px;
+  margin-bottom: 15px; }
+  #arrow_dialog_ins_sa_mac .card .text img {
+    max-width: 100%;
+    max-height: 150px; }
+  #arrow_dialog_ins_sa_mac .card .text .triangle-center {
+    top: initial;
+    right: initial;
+    bottom: -8px;
+    left: 214px; }
+#arrow_dialog_ins_sa_mac .img-div {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  position: relative;
+  height: 140px; }
+  #arrow_dialog_ins_sa_mac .img-div.step1img {
+    width: 320px;
+    background-image: url("../img/mac_sa/step1.png"); }
+  #arrow_dialog_ins_sa_mac .img-div.step2img {
+    width: 280px;
+    background-image: url("../img/mac_sa/step2.png"); }
+    #arrow_dialog_ins_sa_mac .img-div.step2img .file-name {
+      position: absolute;
+      top: 85px;
+      left: 55px;
+      font-size: 10px;
+      font-weight: 700;
+      color: #10110C; }
+  #arrow_dialog_ins_sa_mac .img-div.step3img {
+    width: 430px;
+    background-image: url("../img/mac_sa/step3.png"); }
+  #arrow_dialog_ins_sa_mac .img-div.step4img {
+    background-image: url("../img/mac_sa/step4.png"); }
+    #arrow_dialog_ins_sa_mac .img-div.step4img .file-name {
+      position: absolute;
+      top: 51px;
+      left: 176px;
+      font-weight: 700;
+      color: #808080bd;
+      width: 90px;
+      text-align: center; }
+    #arrow_dialog_ins_sa_mac .img-div.step4img .file-name-url {
+      position: absolute;
+      top: 72px;
+      left: 71px;
+      font-size: 7px;
+      font-weight: 700;
+      color: #808080bd; }
+#arrow_dialog_ins_sa_mac .arrow {
+  top: 10px;
+  right: 100px; }
+  #arrow_dialog_ins_sa_mac .arrow .arrow-tip {
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 55px solid #38d078; }
+  #arrow_dialog_ins_sa_mac .arrow .arrow-body {
+    background: #38d078;
+    width: 45px;
+    height: 80px;
+    margin-left: 19px; }
+
+#arrow_dialog_ins_ch_win .card {
+  float: left;
+  margin: auto;
+  margin-left: 15px;
+  margin-bottom: 15px; }
+  #arrow_dialog_ins_ch_win .card .img-div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    position: relative;
+    height: 200px; }
+    #arrow_dialog_ins_ch_win .card .img-div.step1img {
+      width: 320px;
+      background-image: url("../img/win_ch/step1.png"); }
+      #arrow_dialog_ins_ch_win .card .img-div.step1img .file-name {
+        position: absolute;
+        top: 178px;
+        left: 35px;
+        font-weight: 700;
+        color: #00000096; }
+      #arrow_dialog_ins_ch_win .card .img-div.step1img .file-name-circle {
+        position: absolute;
+        top: 83px;
+        left: 183px;
+        font-weight: 700;
+        color: #00000096; }
+    #arrow_dialog_ins_ch_win .card .img-div.step2img {
+      width: 280px;
+      background-image: url("../img/win_ch/step2.png"); }
+      #arrow_dialog_ins_ch_win .card .img-div.step2img .file-name {
+        position: absolute;
+        top: 83px;
+        left: 136px;
+        font-size: 6px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        max-width: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      #arrow_dialog_ins_ch_win .card .img-div.step2img .file-path {
+        position: absolute;
+        top: 113px;
+        left: 144px;
+        font-size: 5px;
+        font-weight: 700;
+        max-width: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+    #arrow_dialog_ins_ch_win .card .img-div.step3img {
+      width: 430px;
+      background-image: url("../img/win_ch/step3.png"); }
+      #arrow_dialog_ins_ch_win .card .img-div.step3img .file-name {
+        position: absolute;
+        top: 109px;
+        left: 122px;
+        font-size: 7px;
+        font-weight: 700;
+        letter-spacing: 0.4px; }
+#arrow_dialog_ins_ch_win .arrow {
+  bottom: 10px;
+  left: 10px; }
+  #arrow_dialog_ins_ch_win .arrow .arrow-tip {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 60px solid #38d078; }
+  #arrow_dialog_ins_ch_win .arrow .arrow-body {
+    background: #38d078;
+    width: 60px;
+    height: 150px;
+    margin-left: 20px; }
+
+#arrow_dialog_ins_ff_win .card {
+  display: block;
+  clear: both;
+  width: 454px;
+  top: 15px;
+  float: right;
+  margin: auto;
+  margin-right: 80px;
+  margin-bottom: 15px; }
+  #arrow_dialog_ins_ff_win .card .text .triangle-center {
+    top: initial;
+    right: initial;
+    bottom: -14px;
+    left: 214px; }
+  #arrow_dialog_ins_ff_win .card .text img {
+    max-width: 100%;
+    max-height: 150px; }
+  #arrow_dialog_ins_ff_win .card .text .img-div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    position: relative;
+    height: 140px; }
+    #arrow_dialog_ins_ff_win .card .text .img-div.step1img {
+      width: 320px;
+      background-image: url("../img/win_ff/step1.png"); }
+      #arrow_dialog_ins_ff_win .card .text .img-div.step1img .file-name {
+        position: absolute;
+        top: 79px;
+        left: 25px;
+        font-size: 8px;
+        font-weight: 700;
+        color: #10110C; }
+      #arrow_dialog_ins_ff_win .card .text .img-div.step1img .file-name-url {
+        position: absolute;
+        top: 95px;
+        left: 38px;
+        font-size: 8px;
+        font-weight: 600; }
+    #arrow_dialog_ins_ff_win .card .text .img-div.step2img {
+      width: 280px;
+      background-image: url("../img/win_ff/step2.png"); }
+    #arrow_dialog_ins_ff_win .card .text .img-div.step3img {
+      width: 430px;
+      background-image: url("../img/win_ff/step3.png"); }
+    #arrow_dialog_ins_ff_win .card .text .img-div.step4img {
+      background-image: url("../img/win_ff/step4.png"); }
+      #arrow_dialog_ins_ff_win .card .text .img-div.step4img .file-name {
+        position: absolute;
+        top: 74px;
+        left: 85px;
+        font-size: 8px;
+        font-weight: 700; }
+#arrow_dialog_ins_ff_win .arrow {
+  top: 10px;
+  right: 89px; }
+  #arrow_dialog_ins_ff_win .arrow .arrow-tip {
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 55px solid #38d078; }
+  #arrow_dialog_ins_ff_win .arrow .arrow-body {
+    background: #38d078;
+    width: 45px;
+    height: 80px;
+    margin-left: 19px; }
+
+#arrow_dialog_ins_ie_win .wrapper {
+  position: fixed;
+  bottom: 105px; }
+  #arrow_dialog_ins_ie_win .wrapper .steps {
+    padding: 10px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    z-index: 10;
+    border: 1px solid rgba(0, 0, 0, 0.6); }
+    #arrow_dialog_ins_ie_win .wrapper .steps img {
+      max-width: 325px; }
+    #arrow_dialog_ins_ie_win .wrapper .steps p {
+      position: absolute;
+      margin: 0;
+      font-size: 20px;
+      font-weight: 500; }
+    #arrow_dialog_ins_ie_win .wrapper .steps .img-div {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left center;
+      position: relative;
+      height: 270px;
+      width: 340px; }
+      #arrow_dialog_ins_ie_win .wrapper .steps .img-div.step1img {
+        background-image: url("../img/win_ie/step1.png"); }
+        #arrow_dialog_ins_ie_win .wrapper .steps .img-div.step1img .file-name {
+          position: absolute;
+          top: 192px;
+          left: 87px;
+          font-size: 6px;
+          font-weight: 700;
+          color: #00000096; }
+        #arrow_dialog_ins_ie_win .wrapper .steps .img-div.step1img .file-url {
+          position: absolute;
+          top: 198px;
+          left: 37px;
+          font-size: 6px;
+          font-weight: 700;
+          color: #00000096; }
+      #arrow_dialog_ins_ie_win .wrapper .steps .img-div.step2img {
+        background-image: url("../img/win_ie/step2.png"); }
+        #arrow_dialog_ins_ie_win .wrapper .steps .img-div.step2img .file-name {
+          position: absolute;
+          top: 115px;
+          left: 173px;
+          font-size: 7px;
+          font-weight: 600;
+          letter-spacing: 0.4px;
+          color: #434343;
+          max-width: 42px;
+          overflow: hidden; }
+        #arrow_dialog_ins_ie_win .wrapper .steps .img-div.step2img .file-path {
+          position: absolute;
+          top: 150px;
+          left: 182px;
+          font-size: 7px;
+          font-weight: 600;
+          letter-spacing: 0.4px;
+          color: #434343;
+          max-width: 66px;
+          overflow: hidden; }
+      #arrow_dialog_ins_ie_win .wrapper .steps .img-div.step3img {
+        background-image: url("../img/win_ie/step3.png"); }
+        #arrow_dialog_ins_ie_win .wrapper .steps .img-div.step3img .file-name {
+          position: absolute;
+          top: 147px;
+          left: 153px;
+          font-size: 10px;
+          font-weight: 700; }
+  #arrow_dialog_ins_ie_win .wrapper .arrow {
+    display: inline-block;
+    position: absolute !important;
+    z-index: 99999;
+    bottom: 0; }
+    #arrow_dialog_ins_ie_win .wrapper .arrow span {
+      display: block; }
+    #arrow_dialog_ins_ie_win .wrapper .arrow .arrow-tip {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 60px solid #38d078; }
+    #arrow_dialog_ins_ie_win .wrapper .arrow .arrow-body {
+      background: #38d078;
+      width: 60px;
+      height: 150px;
+      margin-left: 20px; }
+
+#arrow_dialog_ins_ed_win .wrapper {
+  position: fixed;
+  bottom: 65px;
+  margin-left: 100px; }
+  #arrow_dialog_ins_ed_win .wrapper .steps {
+    padding: 10px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    z-index: 10;
+    border: 1px solid rgba(0, 0, 0, 0.6); }
+    #arrow_dialog_ins_ed_win .wrapper .steps img {
+      max-width: 325px;
+      padding-top: 20px; }
+    #arrow_dialog_ins_ed_win .wrapper .steps p {
+      position: absolute;
+      margin: 0;
+      font-size: 20px;
+      font-weight: 500; }
+    #arrow_dialog_ins_ed_win .wrapper .steps .img-div {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left center;
+      position: relative;
+      height: 240px;
+      width: 340px; }
+      #arrow_dialog_ins_ed_win .wrapper .steps .img-div.step1img {
+        background-image: url("../img/win_ed/step1.png"); }
+        #arrow_dialog_ins_ed_win .wrapper .steps .img-div.step1img .file-name {
+          position: absolute;
+          top: 177px;
+          left: 87px;
+          font-size: 6px;
+          font-weight: 700;
+          color: #00000096; }
+        #arrow_dialog_ins_ed_win .wrapper .steps .img-div.step1img .file-url {
+          position: absolute;
+          top: 183px;
+          left: 37px;
+          font-size: 6px;
+          font-weight: 700;
+          color: #00000096; }
+      #arrow_dialog_ins_ed_win .wrapper .steps .img-div.step2img {
+        background-position-y: 20px;
+        background-position-x: 10px;
+        background-image: url("../img/win_ed/step2.png"); }
+        #arrow_dialog_ins_ed_win .wrapper .steps .img-div.step2img .file-name {
+          position: absolute;
+          top: 107px;
+          left: 68px;
+          font-weight: 600;
+          letter-spacing: 0.4px;
+          color: #434343; }
+  #arrow_dialog_ins_ed_win .wrapper .arrow {
+    display: inline-block;
+    position: absolute !important;
+    z-index: 99999;
+    bottom: 0; }
+    #arrow_dialog_ins_ed_win .wrapper .arrow span {
+      display: block; }
+    #arrow_dialog_ins_ed_win .wrapper .arrow .arrow-tip {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 60px solid #38d078;
+      /*Arrow color*/ }
+    #arrow_dialog_ins_ed_win .wrapper .arrow .arrow-body {
+      background: #38d078;
+      /*Arrow color*/
+      width: 60px;
+      height: 150px;
+      margin-left: 20px; }

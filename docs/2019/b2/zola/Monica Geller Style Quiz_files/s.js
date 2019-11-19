@@ -1,0 +1,1 @@
+BrandSafetyNadoscallback_11352523({"c": ["moat_safe", "gs_fashion_women", "gs_fashion_misc"], "d": 5, "g": 0.02783989906311035, "pcode": "rubiconproject883925", "r": 11628266820, "ct": 0})

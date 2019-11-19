@@ -1,0 +1,71 @@
+.zero-top-box {
+  font-family: "Open Sans", sans-serif;
+  color: #3c3c3c;
+  width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 3px 7px 2px rgba(0, 0, 0, 0.5);
+  border-right: solid 1px #979797;
+  border-left: solid 1px #979797;
+  border-bottom: solid 1px #979797;
+  padding: 0 0 50px;
+  margin-top: -10px;
+  line-height: 1.5; }
+  .zero-top-box h1,
+  .zero-top-box h2,
+  .zero-top-box h3,
+  .zero-top-box h4,
+  .zero-top-box h5,
+  .zero-top-box h6 {
+    font-weight: 400;
+    font-family: "Open Sans", arial, sans-serif; }
+  .zero-top-box h3 {
+    font-size: 1.44em; }
+  .zero-top-box ol,
+  .zero-top-box ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside; }
+  .zero-top-box .top {
+    height: 93px;
+    margin: 0 auto;
+    padding: 20px 60px 0; }
+    .zero-top-box .top img.red-btn {
+      width: 85px;
+      float: left; }
+    .zero-top-box .top img.logo {
+      float: right;
+      width: 80px; }
+    .zero-top-box .top .text {
+      display: inline-block;
+      margin-left: 30px; }
+    .zero-top-box .top .text h3 {
+      display: inline-block;
+      margin: 0; }
+  .zero-top-box .eula {
+    padding: 30px 60px; }
+    .zero-top-box .eula .text-wrap {
+      background-color: #ebebeb;
+      padding: 20px;
+      height: 165px;
+      overflow: auto; }
+      .zero-top-box .eula .text-wrap span {
+        display: block;
+        margin-top: 20px; }
+  .zero-top-box .disclaimer {
+    padding: 20px 60px; }
+    .zero-top-box .disclaimer > span {
+      font-size: 12px;
+      max-width: 450px;
+      display: inline-block; }
+    .zero-top-box .disclaimer .download_button {
+      width: 200px;
+      cursor: pointer;
+      background-color: #1678DF;
+      display: inline-block;
+      float: right;
+      text-align: center;
+      padding: 10px 0; }
+      .zero-top-box .disclaimer .download_button span {
+        color: white; }
+      .zero-top-box .disclaimer .download_button img {
+        vertical-align: middle; }

@@ -1,0 +1,31 @@
+
+var ftGUID_3692435="3542A0B0102DE3";
+var ftConfID_3692435="0";
+var ftParams_3692435="ft_section=23308714_259017061_453308303_122706971&ft_custom=259017061&imageType=gif&ftDestID=22886533&ft_width=1&ft_height=1&click=&ftOBA=1&ftExpTrack=&cachebuster=158104959";
+var ftKeyword_3692435="";
+var ftCustom_3692435="259017061";
+var ftSection_3692435="23308714_259017061_453308303_122706971";
+var ftSegment_3692435="rj2,o20,n7h,ny7,rpo,sou,ign,igp,tdd,tce,ge3,twv,tvv,rre,tg0,twu,v7t,wkk,uyq,w2c,wr4,uyr,tg1,wbo,o5e,eqe,epy,epx5360,epx,eny5360,eny,xtx,aaj5,ys8,woo,xhy";
+var ftSegmentList_3692435=[{s:'rj2'},{s:'o20',t:35740000},{s:'n7h'},{s:'ny7'},{s:'rpo'},{s:'sou'},{s:'ign'},{s:'igp'},{s:'tdd'},{s:'tce'},{s:'ge3'},{s:'twv'},{s:'tvv'},{s:'rre'},{s:'tg0'},{s:'twu'},{s:'v7t'},{s:'wkk'},{s:'uyq',t:40520000},{s:'w2c'},{s:'wr4'},{s:'uyr',t:40590000},{s:'tg1'},{s:'wbo'},{s:'o5e'},{s:'eqe',t:41611542},{s:'epy'},{m:'c5075_lvdiv',s:'epx5360'},{s:'epx'},{m:'c5075_c5075_div',s:'eny5360'},{s:'eny'},{s:'xtx'},{s:'aaj5'},{s:'ys8'},{s:'woo'},{s:'xhy'}];
+var ftRuleMatch_3692435="0";
+var ftTimestamp_3692435="1572624729";
+var ftImp3692435 = {};
+ftImp3692435.privacy = "x";
+ftImp3692435.guidAge = "780";
+ftImp3692435.impID = "5A9FE459-BA7B-EA69-2F56-CA06FB7B9E58";
+ftImp3692435.duid = "FT:3542A0B0102DE3";
+
+ftImp3692435.ft_tpplid = "";
+ftImp3692435.ft_c = {};
+
+ftImp3692435.jsAppend = "1";
+(function(){
+    var tag = document.getElementById('ft_servedby_3692435') || (function(s){
+    	return s[s.length-1];
+    }(document.getElementsByTagName('script'))),
+           js = document.createElement('script');
+    js.src = 
+"https://cdn.flashtalking.com/xre/369/3692435/1882003/js/j-3692435-1882003.js";
+    js.id = "ftscript_m3692435";
+    tag.parentNode.insertBefore(js, tag);
+}());

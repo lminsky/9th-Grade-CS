@@ -1,0 +1,45 @@
+.cdialog {
+  display: none;
+  background-color: #f7f7f7;
+  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.08);
+  position: absolute;
+  width: 553px;
+  height: 212px;
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 12px; }
+  .cdialog.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; }
+  .cdialog .cdlg-title {
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #5f5f5f;
+    margin: 45px 40px 0; }
+  .cdialog .cdlg-btn-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px; }
+    .cdialog .cdlg-btn-container .btn {
+      width: 150px;
+      height: 36px;
+      line-height: 36px;
+      object-fit: contain;
+      font-size: 15px;
+      letter-spacing: 0px;
+      text-align: center;
+      cursor: pointer;
+      display: inline-block;
+      margin: 5px;
+      text-align: center; }
+    .cdialog .cdlg-btn-container .cancel {
+      color: #9b9b9b; }
+    .cdialog .cdlg-btn-container .try-again {
+      border: 1px solid #1678df;
+      background-color: #1678df;
+      color: #fff; }
